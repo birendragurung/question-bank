@@ -29,6 +29,7 @@ function getTitle($t){
 		$i++;
 	}
 	$title = strtoupper(substr(($title[$i-1]),0, -4));
+	$title = str_replace('_', ' ', $title);
 	return $title;
 }
 

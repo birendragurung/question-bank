@@ -7,7 +7,7 @@
 	if (!empty($_GET)) {
 		if (!empty($_GET['id'])) {
 			$id = $_GET['id'];
-			//syntax for $db->select: select(  tablename, fields to select , join table, where condition, order, limit)
+			//syntax for $db->select is : select(  tablename, fields to select , join table, where condition, order, limit)
 			$paper_exists	= $db->select('papers', '*' , null , 'id = '. $id);
 			if($paper_exists){
 				$db_result 		= $db->getResult();

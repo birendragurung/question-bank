@@ -35,11 +35,11 @@
 				}
 			}
 			else{
-				header('location:all_papers.php?e=1');
+				header('location:course_paper.php?c=1');
 			}
 		}
 		else{
-			header('location:all_papers.php?e=2');
+			header('location:course_paper.php?c=1');
 		}
 ?>
 <html>

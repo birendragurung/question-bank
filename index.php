@@ -4,5 +4,5 @@
 	}else{
 		header('location:public');
 	}	
-	#by birendra gurung
+	#by birendra gurung and teammates
 ?>
